@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Crashes from "mobile-center-crashes";
 import {
   AppRegistry,
   StyleSheet,
