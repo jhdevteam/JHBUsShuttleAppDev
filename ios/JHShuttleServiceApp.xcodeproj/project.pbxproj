@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -649,6 +650,7 @@
 				E6DA90420CE94BE79B385846 /* MobileCenter-Config.plist */,
 				8509F48943EF50EA86B17881 /* Pods */,
 				D0B8690FE369E0D9E1755A6A /* Frameworks */,
+				F09ED3151FA88A3200B2F7EE /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -729,6 +731,18 @@
 				5A5D8D71CE40B532FDD03720 /* libPods-JHShuttleServiceAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F09ED3151FA88A3200B2F7EE /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C3C4B05FA1054B1A8EE9EEF2 /* libAirMaps.a */,
+				177D2D92B82A4CF8ADA6B486 /* libRNMobileCenter.a */,
+				488E2ADD3AD447C384CEE932 /* libRNAnalytics.a */,
+				53B4434694B643AB9389C652 /* libRNCrashes.a */,
+				FB9808EB152E4DF381B2131A /* libRNVectorIcons.a */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		F0C2EF6D1FA81D8700645A75 /* Products */ = {

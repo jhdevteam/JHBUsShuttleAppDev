@@ -184,7 +184,7 @@ const styles = {
         marginLeft:15,
         marginRight:10,
         backgroundColor:"#fff",
-        top: 225 ,
+        top: 150 ,
         height:25,
         opacity:0.9,
         justifyContent: 'center',
