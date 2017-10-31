@@ -61,7 +61,6 @@
 		BFF73748B52F40CE8686C455 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 488E2ADD3AD447C384CEE932 /* libRNAnalytics.a */; };
 		C0C54ACE2C8143D3B8203A1E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0967784EBD6428EB954FF8B /* Feather.ttf */; };
 		C15621A985704E4598AA7998 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC326760324C31BA79F572 /* rubicon-icon-font.ttf */; };
-		C5D6BF5FDD65A1E0D9FC7627 /* libPods-JHShuttleServiceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF4E04269DF6AA09EFDC666 /* libPods-JHShuttleServiceApp.a */; };
 		CB001205DDB5477F934E2A13 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE3E8BFEEC4FC19725130A /* EvilIcons.ttf */; };
 		D28FEF115269475E97AE500A /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C4B05FA1054B1A8EE9EEF2 /* libAirMaps.a */; };
 		D3D0EF22E6224EA69AEC945C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB035DEDFE43457F890E8DAD /* Zocial.ttf */; };
@@ -447,7 +446,6 @@
 				BFF73748B52F40CE8686C455 /* libRNAnalytics.a in Frameworks */,
 				A0AE59D49D6549DA9CBDE4B9 /* libRNCrashes.a in Frameworks */,
 				963E88E695F544C0AD05EEB8 /* libRNVectorIcons.a in Frameworks */,
-				C5D6BF5FDD65A1E0D9FC7627 /* libPods-JHShuttleServiceApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
