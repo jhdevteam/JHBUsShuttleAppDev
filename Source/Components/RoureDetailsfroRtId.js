@@ -17,6 +17,7 @@ import { Dimensions } from 'react-native';
 import ExpandableList from 'react-native-expandable-section-flatlist';
 import MockData from './mockData';
 import DictStyle from './DicStyle';
+import Crashes from "mobile-center-crashes";
 
 //class Example extends React.PureComponent {
 export const RtData=({RouteResult})=>

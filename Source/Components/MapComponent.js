@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import PicDrop from "./FindPicDropLoc";
 import ShowRoute from "./ShowRouteDetails";
 import RoureDetailsfroRtId from "./RoureDetailsfroRtId";
+import Crashes from "mobile-center-crashes";
 import {
   StyleSheet,
   Text,

@@ -20,6 +20,7 @@ import MockData from './mockData';
 import DictStyle from './DicStyle';
 import MapComponent from "./MapComponent";
 import RtData from "../API/RouteData";
+import Crashes from "mobile-center-crashes";
 
 const styles = StyleSheet.create({
   ShuttleDetailWrapper: {

@@ -15,6 +15,7 @@ import {
 
 //import { View, List, } from "native-base";
 import DictStyle from './DicStyle';
+import Crashes from "mobile-center-crashes";
 //import Icon from "react-native-vector-icons/Evillcons";
 export const ShowRoute=({pickDropData,toggleShowRouteTime,ShowHide,RouteResult,toggleShowRouteDeatils,showHideRt,getPickDropTimeDetails,PickDropTime})=>
 {

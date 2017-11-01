@@ -13,6 +13,7 @@ import ModalDropdown from 'react-native-modal-dropdown';
 import { Tabs, Tab, Icon , SocialIcon, Header, Avatar} from 'react-native-elements';
 import renderIfElse from './renderIfElse';
 import renderIf from './renderIf';
+import Crashes from "mobile-center-crashes";
 export const PicDropLoc=({picDropDetails,getDropPicLocation,avtarSource,reversePickDrop,pickDropData,RouteResult})=>
 {
   
