@@ -15,7 +15,9 @@ import {
 import JHShuttleMap from "./Source/MapHome";
 export default class JHShuttleServiceApp extends Component {
   render() { 
+    //Crashes.generateTestCrash();
      return (
+       
          <JHShuttleMap {...this.props}/>       
       );
   }

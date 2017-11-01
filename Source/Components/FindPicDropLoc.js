@@ -39,6 +39,7 @@ if(RouteResult)
     var defaultDropIndex =getIndex(RouteResult.END_POINT);
     var defaultDropValue = RouteResult.END_POINT;
   }
+  
 
   
   function togglePickDrop(val){  

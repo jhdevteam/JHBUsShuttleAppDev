@@ -28,9 +28,19 @@ class JHShuttleServiceAppUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        func testExample() {
+                  // Use recording to get started writing UI tests.
+          
+          
+          let allowButton = XCUIApplication().alerts["Allow “JHShuttleServiceApp” to access your location while you are using the app?"].buttons["Allow"]
+          allowButton.tap()
+          allowButton.tap()
+          allowButton.tap()
+          
+          
+          
+          
+                                                // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
 }

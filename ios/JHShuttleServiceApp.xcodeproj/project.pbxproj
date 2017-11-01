@@ -69,6 +69,7 @@
 		E63B45EF376C46AFBB2A9339 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FF9766B6CF47ECB63D76C7 /* Octicons.ttf */; };
 		E7C245A2C57D45B2A3555B13 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD4DA901BFC3483FAB969FA5 /* Roboto.ttf */; };
 		EF786D64386EC14C69EA93AA /* libPods-JHShuttleServiceAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5D8D71CE40B532FDD03720 /* libPods-JHShuttleServiceAppTests.a */; };
+		F011B1CE1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011B1CD1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,6 +297,13 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		F011B1D01FA8F4B3005E0CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = JHShuttleServiceApp;
+		};
 		F0C2EF901FA81D8700645A75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D168602785DE4350B182FFA4 /* RNAnalytics.xcodeproj */;
@@ -408,6 +416,9 @@
 		E6DA90420CE94BE79B385846 /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "JHShuttleServiceApp/MobileCenter-Config.plist"; sourceTree = "<group>"; };
 		EAE454BA13BC42F1B1B38F51 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		EDD91E1863A941618F610325 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
+		F011B1CB1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHShuttleServiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F011B1CD1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHShuttleServiceAppUITests.swift; sourceTree = "<group>"; };
+		F011B1CF1FA8F4B3005E0CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB035DEDFE43457F890E8DAD /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		FB9808EB152E4DF381B2131A /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		FC728244DEBB48B2842B22E5 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -470,6 +481,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E201145A776ABD800906CED9 /* libPods-JHShuttleServiceApp-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011B1C81FA8F4B2005E0CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +661,7 @@
 				13B07FAE1A68108700A75B9A /* JHShuttleServiceApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* JHShuttleServiceAppTests */,
+				F011B1CC1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				89E547920A7B455E8E1C435C /* Resources */,
 				E6DA90420CE94BE79B385846 /* MobileCenter-Config.plist */,
@@ -662,6 +681,7 @@
 				00E356EE1AD99517003FC87E /* JHShuttleServiceAppTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* JHShuttleServiceApp-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* JHShuttleServiceApp-tvOSTests.xctest */,
+				F011B1CB1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -729,6 +749,15 @@
 				5A5D8D71CE40B532FDD03720 /* libPods-JHShuttleServiceAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F011B1CC1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F011B1CD1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.swift */,
+				F011B1CF1FA8F4B3005E0CE1 /* Info.plist */,
+			);
+			path = JHShuttleServiceAppUITests;
 			sourceTree = "<group>";
 		};
 		F09ED3151FA88A3200B2F7EE /* Recovered References */ = {
@@ -870,12 +899,31 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* JHShuttleServiceApp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F011B1CA1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F011B1F81FA8F4B3005E0CE1 /* Build configuration list for PBXNativeTarget "JHShuttleServiceAppUITests" */;
+			buildPhases = (
+				F011B1C71FA8F4B2005E0CE1 /* Sources */,
+				F011B1C81FA8F4B2005E0CE1 /* Frameworks */,
+				F011B1C91FA8F4B2005E0CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F011B1D11FA8F4B3005E0CE1 /* PBXTargetDependency */,
+			);
+			name = JHShuttleServiceAppUITests;
+			productName = JHShuttleServiceAppUITests;
+			productReference = F011B1CB1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
@@ -897,6 +945,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					F011B1CA1FA8F4B2005E0CE1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = H4YR3ZHP72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 				};
 			};
@@ -987,6 +1041,7 @@
 				00E356ED1AD99517003FC87E /* JHShuttleServiceAppTests */,
 				2D02E47A1E0B4A5D006451C7 /* JHShuttleServiceApp-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* JHShuttleServiceApp-tvOSTests */,
+				F011B1CA1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1302,6 +1357,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F011B1C91FA8F4B2005E0CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1562,6 +1624,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F011B1C71FA8F4B2005E0CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011B1CE1FA8F4B2005E0CE1 /* JHShuttleServiceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1574,6 +1644,11 @@
 			isa = PBXTargetDependency;
 			target = 2D02E47A1E0B4A5D006451C7 /* JHShuttleServiceApp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		F011B1D11FA8F4B3005E0CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* JHShuttleServiceApp */;
+			targetProxy = F011B1D01FA8F4B3005E0CE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1685,6 +1760,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 				INFOPLIST_FILE = JHShuttleServiceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1695,6 +1771,7 @@
 				PRODUCT_NAME = JHShuttleServiceApp;
 				PROVISIONING_PROFILE = "b9ba49af-6919-45b5-a946-3f36fbf8ce7c";
 				PROVISIONING_PROFILE_SPECIFIER = WMD_BosShuttleSched;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1716,6 +1793,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 				INFOPLIST_FILE = JHShuttleServiceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1726,6 +1804,7 @@
 				PRODUCT_NAME = JHShuttleServiceApp;
 				PROVISIONING_PROFILE = "1026ca8e-dcea-4276-a8c0-22ca484732e5";
 				PROVISIONING_PROFILE_SPECIFIER = WMD_BosShuttleSched;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1914,7 +1993,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1949,10 +2028,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F011B1D21FA8F4B3005E0CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H4YR3ZHP72;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = JHShuttleServiceAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JHShuttleServiceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1026ca8e-dcea-4276-a8c0-22ca484732e5";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JHShuttleServiceApp;
+			};
+			name = Debug;
+		};
+		F011B1D31FA8F4B3005E0CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H4YR3ZHP72;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = JHShuttleServiceAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JHShuttleServiceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1026ca8e-dcea-4276-a8c0-22ca484732e5";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JHShuttleServiceApp;
 			};
 			name = Release;
 		};
@@ -2000,6 +2152,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F011B1F81FA8F4B3005E0CE1 /* Build configuration list for PBXNativeTarget "JHShuttleServiceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011B1D21FA8F4B3005E0CE1 /* Debug */,
+				F011B1D31FA8F4B3005E0CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
