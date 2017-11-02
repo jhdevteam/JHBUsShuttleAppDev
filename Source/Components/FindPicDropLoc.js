@@ -120,7 +120,8 @@ if(RouteResult)
                               options={hh} 
                               defaultIndex={defaultPicIndex}
                               defaultValue={defaultPicValue}
-                              onSelect={bindPicDrop.bind(hh[this], "pickUp")}>
+                              onSelect={bindPicDrop.bind(this, "pickUp")}
+                              >
                             </ModalDropdown>  
                         </View>
                         <View style={{left: 300, position: 'absolute'}}>
@@ -163,7 +164,8 @@ if(RouteResult)
                             options={hh} 
                             defaultIndex={defaultDropIndex}
                             defaultValue={defaultDropValue}
-                            onSelect={bindPicDrop.bind(hh[this], "dropOff")}             />
+                            onSelect={bindPicDrop.bind(this, "dropOff")}             
+                            />
                         </View>
                         <View  style={{left: 300, position: 'absolute'}}>
                              {(avtarSource == '_click') &&

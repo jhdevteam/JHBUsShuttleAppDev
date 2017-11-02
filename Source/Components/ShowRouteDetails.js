@@ -14,6 +14,7 @@ import {
 } from "react-native";
 
 //import { View, List, } from "native-base";
+import {  Icon } from 'react-native-elements';
 import DictStyle from './DicStyle';
 import Crashes from "mobile-center-crashes";
 //import Icon from "react-native-vector-icons/Evillcons";
@@ -82,22 +83,45 @@ export const ShowRoute=({pickDropData,toggleShowRouteTime,ShowHide,RouteResult,t
               }            
             accessibilityLabel="Learn more about this purple button"
          />  */}
-         <TouchableHighlight onPress={()=>SetFavouriteRoute()} >
-          <Text>Set Favourite</Text>
-        </TouchableHighlight>
+         
+          <View style={styles.iconFavourite}> 
+           <Icon 
+                        name='heart'
+                        type='font-awesome'
+                        size={15}
+                        color='#f50'
+                        //style={styles.iconFavourite}
+                        onPress={() => SetFavouriteRoute()}
+                      />
+        
+</View>
+  <View>
           <TouchableHighlight onPress={()=>ShowRoute()} onLongPress={()=>HideRoute()}>
           <Text>{              
                 RouteResult.ROUTE_TITLE
               }    
           </Text>
-        </TouchableHighlight>                          
+        </TouchableHighlight>  
+        </View>
+                             
       </View>    
      {         
     (ShowHide.val=="show") &&
-      <View style={styles.RtTime}>            
+      <View style={styles.RtTime}> 
+                    
           <View style={styles.searchResultsWrapper} >
+            
 				{/* <List 
 					dataArray={RouteResult.ROUTE_SERVICE} */}
+          <Icon 
+                        name='close'
+                        type='evilicon'
+                        size={15}
+                        
+                        style={styles.iconLeft}
+                        onPress={() => HideRoute()}
+                      />
+        
           <ListView
         dataSource={this.state.dataSource}
 					renderRow={(item)=>
@@ -135,7 +159,13 @@ export const ShowRoute=({pickDropData,toggleShowRouteTime,ShowHide,RouteResult,t
     (showHideRt.valRT=="view") &&
       <View style={styles.RtTime}>            
           <View style={styles.searchResultsWrapper} >
-			
+			                <Icon 
+                        name='close'
+                        type='evilicon'
+                        size={15}
+                        style={styles.iconLeft}
+                        onPress={() => HideRouteDetails()}
+                      />
 			<TouchableOpacity>
         <View
           style={{ marginVertical: 10, marginHorizontal: 15, height: 30, flexDirection: 'column',
@@ -181,11 +211,12 @@ export const ShowRoute=({pickDropData,toggleShowRouteTime,ShowHide,RouteResult,t
 var width = Dimensions.get("window").width; //full width
 const styles = {
   RtDetails:{
+       flexDirection:'row',
         width:width-25,
         marginLeft:15,
         marginRight:10,
         backgroundColor:"#fff",
-        top: 150 ,
+        top: 50 ,
         height:25,
         opacity:0.9,
         justifyContent: 'center',
@@ -223,6 +254,14 @@ const styles = {
         fontSize:20,
         color:"#7D7D7D",
     },
+    iconLeft: {
+        marginLeft: 10,
+        marginTop:5,
+  },
+  iconFavourite: {
+        marginRight: 25,
+        marginTop:2,
+  },
     distance:{
         fontSize:12,
     }

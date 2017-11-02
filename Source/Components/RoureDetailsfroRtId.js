@@ -7,6 +7,7 @@
 
 import React from 'react';
 import {
+  StyleSheet,
   View,
   Text,
   TouchableOpacity
@@ -18,6 +19,7 @@ import ExpandableList from 'react-native-expandable-section-flatlist';
 import MockData from './mockData';
 import DictStyle from './DicStyle';
 import Crashes from "mobile-center-crashes";
+import {  Icon } from 'react-native-elements';
 
 //class Example extends React.PureComponent {
 export const RtData=({RouteResult})=>
@@ -33,6 +35,11 @@ export const RtData=({RouteResult})=>
       container: {
         flex: 1,
        },
+
+        iconLeft: {
+        marginLeft: 10,
+        marginTop:5,
+  },
      };
   //   this.rightButtonConfig = {
   //     title: 'Time Table',
@@ -105,6 +112,7 @@ export const RtData=({RouteResult})=>
           rightButton={this.rightButtonConfig}
         /> */}
         {/* <HideableView visible={this.state.visible}> */}
+        
         <ExpandableList
           dataSource={RouteResult}
           headerKey="ROUTE_TITLE"
@@ -117,6 +125,7 @@ export const RtData=({RouteResult})=>
       );
     }
   
+
 
 
 

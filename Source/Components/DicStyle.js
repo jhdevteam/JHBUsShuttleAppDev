@@ -29,6 +29,8 @@ const _fontSet = {
   xSize: 11
 };
 
+
+
 const StyleDict = {
   colorSet: _colorSet,
   fontSet: _fontSet,
