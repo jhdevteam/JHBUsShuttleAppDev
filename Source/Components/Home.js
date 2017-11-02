@@ -21,6 +21,7 @@ import DictStyle from './DicStyle';
 import MapComponent from "./MapComponent";
 import RtData from "../API/RouteData";
 import Crashes from "mobile-center-crashes";
+import CodePush from "react-native-code-push";
 
 const styles = StyleSheet.create({
   ShuttleDetailWrapper: {
@@ -117,7 +118,12 @@ class Home extends React.Component{
   
   
 componentDidMount()
-{    
+{ 
+  
+    CodePush.sync({
+            updateDialog: true,
+            installMode: CodePush.InstallMode.IMMEDIATE
+        });
     var rx = this;
     this.props.getPresentPosition();
     
