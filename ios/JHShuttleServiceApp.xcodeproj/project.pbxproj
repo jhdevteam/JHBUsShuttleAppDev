@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -52,6 +51,7 @@
 		719B863F20FF4E7795EEA564 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E574261C67D1455496D23CA6 /* Ionicons.ttf */; };
 		71A6B4F4E7A54F16BE15CE02 /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6DA90420CE94BE79B385846 /* MobileCenter-Config.plist */; };
 		74E25D1833384EFEB963D852 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7BC65A4362F4951A5C977B3 /* EvilIcons.ttf */; };
+		7862CE191362A900CCD7BAB3 /* libPods-JHShuttleServiceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF4E04269DF6AA09EFDC666 /* libPods-JHShuttleServiceApp.a */; };
 		7E6449244E57850F8398D9DD /* libPods-JHShuttleServiceApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A2780454F154949BCE3AF7 /* libPods-JHShuttleServiceApp-tvOS.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		963E88E695F544C0AD05EEB8 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9808EB152E4DF381B2131A /* libRNVectorIcons.a */; };
@@ -478,6 +478,7 @@
 				963E88E695F544C0AD05EEB8 /* libRNVectorIcons.a in Frameworks */,
 				434BE3C6FCD7457C86683640 /* libCodePush.a in Frameworks */,
 				A95598B641F44187A987E592 /* libz.tbd in Frameworks */,
+				7862CE191362A900CCD7BAB3 /* libPods-JHShuttleServiceApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
